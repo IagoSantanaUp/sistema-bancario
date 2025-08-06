@@ -19,6 +19,10 @@ public class Cadastro {
         this.nomeTitular = nomeTitular;
     }
 
+    public void exibirInformacoes(int numeroConta, double saldo, String nomeTitular) {
+        System.out.println("O titular da conta é: " + nomeTitular + ". Meu saldo é " + saldo + ". Meu número da conta é " + numeroConta);
+    }
+
     public int getNumeroConta() {
         return numeroConta;
     }
@@ -37,6 +41,15 @@ public class Cadastro {
             throw new IllegalArgumentException("Incorreto o número da conta!");
         }
     }
+
+    public void setNomeTitular(String nomeTitular) {
+        if (nomeTitular != null) {
+            this.nomeTitular = nomeTitular;
+        } else {
+            throw new IllegalArgumentException("Incorreto nome do titular!");
+        }
+    }
+
 
     public void setDepositoInicial(int depositoInicial) {
         if (depositoInicial > 0) {
