@@ -9,7 +9,7 @@ Este projeto implementa uma classe Cadastro que armazena dados como número da c
 - Ambiente de Desenvolvimento: Recomenda-se IntelliJ IDEA ou outra IDE compatível com Java.
 
 ## Funcionalidades
-- Criação de objetos cadastro com número da conta, nome do títular da conta e deposito inicial.
+- Criação de objetos de cadastro com o número da conta, nome do títular da conta e deposito inicial.
 - Métodos getters e setters para manipulação dos atributos.
 - Método exibirInformacoes() para formatar e exibir os dados.
 
